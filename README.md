@@ -19,7 +19,7 @@ Projekte liegen auf GitHub in sogenannten Repositories. Diese können entweder e
 Je nachdem, welche Zugriffsrechte ihr auf ein Repository habt, gibt es verschiedene Setups: https://happygitwithr.com/common-remote-setups.html
 Für eat-Pakete ist wahrscheinlich 25.3 "Ours" am relevantesten, weil ihr dort Contributors seid. 
 
-# Wie bekomme ich ein Repository auf den PC geladen?
+# Wie bekomme ich ein Repository auf den PC geladen "clonen"?
 Am einfachsten über:
 - Code - Open with GitHub Desktop
 - Alternativ: Den Link kopieren und im entsprechenden Tool angeben. 
@@ -42,3 +42,9 @@ Wenn ich die Verbindung zwischen meinem lokalen Projekt und dem Git-Repository h
 5) Pull-request
    - Anfrage, ob man die Vorgenommenen Änderungen auf dem **neuen branch** mit dem Hauptprojekt **main branch** zusammenführen darf. Hier lässt Git seine Magie walten und führt die verschiedenen Dokumente zusammen. Manchmal können hier merge-conflicts auftreten. Diese muss man manuell beheben, indem man die Textpassagen auswählt, die behalten werden sollen. Hier können auch reviewer angegeben werden, die noch einmal auf die Änderungen schauen sollen. 
    - Am einfachsten über GitHub.
+
+# Issues
+Über Issues kann man einfach ToDos kommunizieren. Sie lassen sich untereinander, mit Commits oder Pull-requests verknüpfen, sodass man genau nachvollziehen kann, wo welcher Issue behoben wurde.
+
+# Übung
+Arbeitet die Issues gemeinsam ab. Wenn ihr einen Issue bearbeiten wollt, assigned euch dazu, sodass die anderen wissen, dass jemand daran arbeitet. 
