@@ -27,13 +27,13 @@ Am einfachsten über:
 # Basic Workflow (einfach)
 Wenn ich die Verbindung zwischen meinem lokalen Projekt und dem Git-Repository hergestellt habe, kann ich grob folgendem Workflow folgen: 
 1) **Pull changes:**
-   - Herunterladen der neusten Änderungen
+   - Herunterladen der neusten Änderungen. So haben wir die Aktuelle Version des Projektes auf dem Rechner.
    - `git pull main`
 2) **New branch:**
    - Erstellt einen Neuen "Ast". Hier kann ich nach Belieben Änderungen vornehmen, ohne Angst haben zu müssen, dass meine Vorherige Version überschrieben wird.
    - `git checkout -b "new_branch"`
 3) **Committen**
-   - Das speichert die Zwischenschritte ab (ähnlich wie STRG + S), nur dass ich auch sogenannte commit-messages vergeben kann, die die Vorgenommenen Änderungen beschreiben. Dafür muss ich zuerst die Änderungen "stagen", also Git mitteilen, das die Änderungen an dieser Datei durch den Commit auch gespeichert werden sollen. Möglichst oft committen, sodass man zu möglichen Zwischenschritten zurückspringen kann, und gleichzeitig gut dokummentiert, was man gemacht hat. 
+   - Das speichert die Zwischenschritte ab (ähnlich wie STRG + S), nur dass ich auch sogenannte commit-messages vergeben kann, die die Vorgenommenen Änderungen beschreiben. Dafür muss ich zuerst die Änderungen "stagen", also Git mitteilen, das die Änderungen an dieser Datei durch den Commit auch gespeichert werden sollen. Möglichst oft committen, sodass man zu möglichen Zwischenschritten zurückspringen kann (man kann nämlich den Projektstand zu jedem Commit wiederherstellen), und gleichzeitig gut dokummentiert, was man gemacht hat. 
    - `git add .`
    - `git commit -m "Informative message"`
 4) **Pushen**
