@@ -1,8 +1,8 @@
 # Was ist git?
-Git ist ein System, das für die version control von Datein genutzt werden kann. 
+Git ist das am weitesten verbreitete Versionskontrollsystem . 
 
 # Warum git?
-* Die gesamte Versionsgeschichte eines Projektes ist abrufbar/wiederherstellbar. Deshalb sind solche Dateibenennungen wie final.txt, final-v02.txt, final-v02_NH_corrections.txt ... nicht nötig. Änderungen werden vorgenommen und hochgeladen, alter Versionen können aber jederzeit wiederherstellbar.
+* Die gesamte Versionsgeschichte eines Projektes ist abrufbar/wiederherstellbar. Deshalb sind solche Dateibenennungen wie final.txt, final-v02.txt, final-v02_NH_corrections.txt ... nicht nötig. Änderungen werden vorgenommen und hochgeladen, alte Versionen sind aber jederzeit wiederherstellbar.
 * Das Projekt liegt online, kann also nicht so einfach verloren gehen, wenn z.B. der Rechner kaputt get.
 * Kollaboratives Arbeiten an Textdatein (vor allem, aber nicht nur Code) wird deutlich erleichtert - dazu später mehr. Ganz generell haben mit Git immer alle Zugriff auf die neuste Version und können Änderungen einfach nachverfolgen, auch von verschiedenen Computern.
 
@@ -47,4 +47,4 @@ Wenn ich die Verbindung zwischen meinem lokalen Projekt und dem Git-Repository h
 Über Issues kann man einfach ToDos kommunizieren. Sie lassen sich untereinander, mit Commits oder Pull-requests verknüpfen, sodass man genau nachvollziehen kann, wo welcher Issue behoben wurde.
 
 # Übung
-Arbeitet die Issues gemeinsam ab. Wenn ihr einen Issue bearbeiten wollt, assigned euch dazu, sodass die anderen wissen, dass jemand daran arbeitet. Für den ersten Durchlauf forked das Repository bitte. Danach adde ich euch als Collaborators.
+Arbeitet die Issues gemeinsam ab. Wenn ihr einen Issue bearbeiten wollt, assigned euch dazu, sodass die anderen wissen, dass jemand daran arbeitet.
