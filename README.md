@@ -47,4 +47,4 @@ Wenn ich die Verbindung zwischen meinem lokalen Projekt und dem Git-Repository h
 Über Issues kann man einfach ToDos kommunizieren. Sie lassen sich untereinander, mit Commits oder Pull-requests verknüpfen, sodass man genau nachvollziehen kann, wo welcher Issue behoben wurde.
 
 # Übung
-Arbeitet die Issues gemeinsam ab. Wenn ihr einen Issue bearbeiten wollt, assigned euch dazu, sodass die anderen wissen, dass jemand daran arbeitet. 
+Arbeitet die Issues gemeinsam ab. Wenn ihr einen Issue bearbeiten wollt, assigned euch dazu, sodass die anderen wissen, dass jemand daran arbeitet. Für den ersten Durchlauf forked das Repository bitte. Danach adde ich euch als Collaborators.
