@@ -44,7 +44,7 @@ Wenn ich die Verbindung zwischen meinem lokalen Projekt und dem Git-Repository h
    - Am einfachsten über GitHub.
 
 # Issues
-Über Issues kann man einfach ToDos kommunizieren. Sie lassen sich untereinander, mit Commits oder Pull-Requests verknüpfen, sodass man genau nachvollziehen kann, wo welcher Issue behoben wurde. Z.B.: `closes #1` schließt den Issue, sobald der Commit oder die Pull-Request in den main branch gemerged wird.
+Über Issues kann man einfach ToDos kommunizieren. Sie lassen sich untereinander, mit Commits oder Pull-Requests verknüpfen, sodass man genau nachvollziehen kann, wo welcher Issue behoben wurde. Z.B.: `closes #1` (in der Commit oder Pull-Request Beschreibung) schließt den Issue, sobald der Commit oder die Pull-Request in den main branch gemerged wird.
 
 # Übung
 Arbeitet die Issues gemeinsam ab. Wenn ihr einen Issue bearbeiten wollt, assigned euch dazu, sodass die anderen wissen, dass jemand daran arbeitet.
