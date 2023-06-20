@@ -19,6 +19,8 @@ Projekte liegen auf GitHub in sogenannten Repositories. Diese können entweder e
 Je nachdem, welche Zugriffsrechte ihr auf ein Repository habt, gibt es verschiedene Setups: https://happygitwithr.com/common-remote-setups.html
 Für eat-Pakete ist wahrscheinlich 25.3 "Ours" am relevantesten, weil ihr dort Contributors seid. 
 
+Die Grundidee ist, dass die Datein in diesen Repositories regelmäßig auf den PC geladen werden (man arbeitet also lokal auf dem eigenen Rechner), und die Änderungen dann wieder auf den Server hochgeladen werden. Dadurch sind die Onlineversion und die Lokale Version also mehr oder weniger synchron (wenn man auch wirklich runter- und hochlädt, das passiert nämlich manuell und nicht automatisch). 
+
 # Wie bekomme ich ein Repository auf den PC geladen "clonen"?
 Am einfachsten über:
 - Code - Open with GitHub Desktop
