@@ -26,7 +26,25 @@ Am einfachsten über:
 - Code - Open with GitHub Desktop
 - Alternativ: Den Link kopieren und im entsprechenden Tool angeben. 
 
-# Basic Workflow (einfach)
+# Was dann?
+Wenn das Repository lokal auf den PC heruntergelanden wurde, können Änderungen vorgenommen werden. 
+Diese speichert man für git ab, indem man sie comitted. 
+Achtung: Die Änderungen werden damit noch nicht hochgeladen.
+Das passiert erst, wenn man wieder "pushed", also die Änderungen hochlädt.
+
+# Branches
+Ein wichtiges Feature von Git sind die "branches".
+Das Projekt liegt auf dem branch "main". 
+Für einfach Projekte reicht es, hierdrauf zu arbeiten.
+Von diesem main branch können weitere Äste abgezweigt werden.
+Das sind zuerst Kopien von "main", können aber unabhängig bearbeitet werden.
+Am Ende werden sie wieder mit "main" zusammengeführt, also "gemerged".
+So können mehrer Personen gleichzeitig auf unterschiedlichen branches arbeiten, und am Ende zusammenmergen.
+Git kann schon sehr gut unterscheiden, welcher Änderungen zuletzt vorgenommen wurden. 
+Wenn aber gleichzeitig an der selben Stelle gearbeitet wurde, können merge-conflicts auftreten.
+Diese muss man dann beheben, bevor man mergen kann.
+
+# Kollaborativer Workflow Übersicht
 Wenn ich die Verbindung zwischen meinem lokalen Projekt und dem Git-Repository hergestellt habe, kann ich grob folgendem Workflow folgen: 
 1) **Pull changes:**
    - Herunterladen der neusten Änderungen. So haben wir die Aktuelle Version des Projektes auf dem Rechner.
@@ -42,7 +60,7 @@ Wenn ich die Verbindung zwischen meinem lokalen Projekt und dem Git-Repository h
    - Hochladen der Änderungen auf GitHub.
    - `git push`
 5) **Pull-request**
-   - Anfrage, ob man die Vorgenommenen Änderungen auf dem **neuen branch** mit dem Hauptprojekt **main branch** zusammenführen darf. Hier lässt Git seine Magie walten und führt die verschiedenen Dokumente zusammen. Manchmal können hier merge-conflicts auftreten. Diese muss man manuell beheben, indem man die Textpassagen auswählt, die behalten werden sollen. Hier können auch reviewer angegeben werden, die noch einmal auf die Änderungen schauen sollen. 
+   - Anfrage, ob man die Vorgenommenen Änderungen auf dem **neuen branch** mit dem Hauptprojekt **main branch** zusammenführen darf. Hier lässt Git seine Magie walten und führt die verschiedenen Dokumente zusammen. Manchmal können hier merge-conflicts auftreten. Diese muss man manuell beheben, indem man die Textpassagen auswählt, die behalten werden sollen. Hier können auch reviewer angegeben werden, die noch einmal auf die Änderungen schauen sollen. Um merge-conflicts möglichst zu vermeiden bietet es sich an, regelmäßig zu pullen, zu pushen und zu mergen. 
    - Am einfachsten über GitHub.
 
 # Issues
