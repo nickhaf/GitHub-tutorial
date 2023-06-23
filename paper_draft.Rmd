@@ -9,6 +9,8 @@ output: pdf_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
+# ist x oder y besser?
+
 hier ist eine wunderschöne Tabelle mit ausgedachten Zahlen
 
 ```{r}
