@@ -33,6 +33,9 @@ Diese speichert man für git ab, indem man sie comitted.
 Achtung: Die Änderungen werden damit noch nicht hochgeladen.
 Das passiert erst, wenn man wieder "pushed", also die Änderungen hochlädt.
 
+## Übung
+Erstellt ein eigenes Repository.
+Pullt es, erstellt ein RStudio-Projekt + R-Sktipt, und pusht dann wieder. 
 
 # Weitere Features
 ## Branches
@@ -70,4 +73,4 @@ Wenn ich die Verbindung zwischen meinem lokalen Projekt und dem Git-Repository h
    - Am einfachsten über GitHub.
 
 # Übung
-Arbeitet die Issues gemeinsam ab. Wenn ihr einen Issue bearbeiten wollt, assigned euch dazu, sodass die anderen wissen, dass jemand daran arbeitet.
+Arbeitet die Issues in diesem Repository gemeinsam ab. Wenn ihr einen Issue bearbeiten wollt, assigned euch dazu, sodass die anderen wissen, dass jemand daran arbeitet.
