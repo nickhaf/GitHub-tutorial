@@ -1,2 +1,4 @@
-# Hallo Jule, das ist unser Testskript :-)
-# :P
+add_numbers <- function(x, y){
+  res <- x + y
+  return(res)
+}
