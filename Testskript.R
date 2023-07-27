@@ -9,4 +9,4 @@ add_numbers <- function(Jule, Anne) {
 Jule <- c(1, 2, 3, 4)
 Anne <- c(5, 6, 7, 9)
 
-Nicklas(Jule, Anne)
+add_numbers(Jule, Anne)
