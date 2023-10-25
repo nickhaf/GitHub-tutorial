@@ -1,6 +1,6 @@
-## function for adding 2 numbers
+# This is Alinas version of the R-Skript.
 
-add_2_numbers <- function(x, y){
-  result <- x + y
-  return(result)
-}
+numbers <- seq(1:20)
+
+plot(numbers)
+
