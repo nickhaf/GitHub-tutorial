@@ -57,7 +57,7 @@ Diese muss man dann beheben, bevor man mergen kann.
 Wenn ich die Verbindung zwischen meinem lokalen Projekt und dem Git-Repository hergestellt habe, kann ich grob folgendem Workflow folgen: 
 1) **Pull changes:**
    - Herunterladen der neusten Änderungen. So haben wir die Aktuelle Version des Projektes auf dem Rechner.
-   - `git pull main`
+   - `git pull`
 2) **New branch:**
    - Erstellt einen Neuen "Ast". Hier kann ich nach Belieben Änderungen vornehmen, ohne Angst haben zu müssen, dass meine Vorherige Version überschrieben wird.
    - `git checkout -b "new_branch"`
