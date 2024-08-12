@@ -4,7 +4,7 @@ Git ist das am weitesten verbreitete Versionskontrollsystem .
 
 ## Warum git?
 * Die gesamte Versionsgeschichte eines Projektes ist abrufbar/wiederherstellbar. Deshalb sind solche Dateibenennungen wie final.txt, final-v02.txt, final-v02_NH_corrections.txt ... nicht nötig. Änderungen werden vorgenommen und hochgeladen, alte Versionen sind aber jederzeit wiederherstellbar.
-* Das Projekt liegt online, kann also nicht so einfach verloren gehen, wenn z.B. der Rechner kaputt get.
+* Das Projekt liegt online, kann also nicht so einfach verloren gehen, wenn z.B. der Rechner kaputt geht.
 * Kollaboratives Arbeiten an Textdatein (vor allem, aber nicht nur Code) wird deutlich erleichtert - dazu später mehr. Ganz generell haben mit Git immer alle Zugriff auf die neuste Version und können Änderungen einfach nachverfolgen, auch von verschiedenen Computern.
 
 ## Wie arbeiten wir mit Git?
