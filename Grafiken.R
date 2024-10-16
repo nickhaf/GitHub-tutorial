@@ -1,4 +1,5 @@
-# Lisas Änderung
+
+rm(list=ls())
 ### R-Skript 
 ### Janine am 16.10.2024
 
@@ -11,3 +12,5 @@ library(ggplot2)
 # Grafiken ------------------------------------------------------------------------------------
 
 # ...
+
+# Lisas Änderung
