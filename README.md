@@ -74,3 +74,4 @@ Wenn ich die Verbindung zwischen meinem lokalen Projekt und dem Git-Repository h
 
 # Übung
 Arbeitet die Issues in diesem Repository gemeinsam ab. Wenn ihr einen Issue bearbeiten wollt, assigned euch dazu, sodass die anderen wissen, dass jemand daran arbeitet.
+Kleine änderung
