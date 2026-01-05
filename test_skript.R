@@ -1,4 +1,6 @@
 add_numbers <- function(x,y){
-  sum(x,y)
+  print("The difference is:")
+  diff(c(x,y))
+  
 }
 add_numbers(5,10)
